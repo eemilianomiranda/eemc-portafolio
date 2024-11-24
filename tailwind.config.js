@@ -8,7 +8,7 @@ export default {
     extend: {
       colors: {
         // Agregar color personalizado
-        vino: "#7A183D",
+        vino: "#70222b",
       },
     },
   },

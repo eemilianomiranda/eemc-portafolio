@@ -28,3 +28,25 @@ html {
 }
 
 
+/* General Styles for Scrollbar */
+::-webkit-scrollbar {
+  width: 1rem; /* Ancho de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f4; /* Color del fondo del scroll */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #7A183D; /* Color de la barra de desplazamiento */
+  border-radius: 4rem; /* Redondeo máximo para hacer el scroll circular */
+  border: 2px solid #f4f4f4; /* Espacio alrededor del thumb */
+}
+
+/* Scroll para Firefox */
+* {
+  scrollbar-width: thin; /* Hace el scroll más delgado */
+  scrollbar-color: #7A183D #f4f4f4; /* thumb y track respectivamente */
+}
+
+
