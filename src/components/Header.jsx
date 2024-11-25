@@ -2,10 +2,12 @@ import React from "react";
 
 const Header = ({ bgColor }) => {
   return (
-    <header className={`fixed top-0 w-full ${bgColor} bg-opacity-60 z-50 transition-colors duration-300`}>
+    <header
+      className={`fixed top-0 w-full ${bgColor} bg-opacity-60 z-50 transition-colors duration-300`}
+    >
       <div className="flex items-center justify-between px-8 py-4 max-w-7xl mx-auto">
         {/* Logo */}
-        <a href="#home">
+        <a href="/">
           <div className="text-white text-2xl font-bold">totodev</div>
         </a>
 
@@ -14,7 +16,7 @@ const Header = ({ bgColor }) => {
           <ul className="flex space-x-8 uppercase text-sm font-semibold">
             <li>
               <a
-                href="#home"
+                href="/"
                 className="relative text-white duration-300 group pb-4"
               >
                 Inicio
